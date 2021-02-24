@@ -1,3 +1,5 @@
+Objective-C categories for task 1 are in the Palindrome folder.
+
 App finished with room for improvement since the dedicated time for the tasks is 2-4 hours.
 
 What would I have done I had more time:
