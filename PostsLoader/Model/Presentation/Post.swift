@@ -11,6 +11,7 @@ import UIKit
 struct Post {
     
     let identifier: Int
+    let userID: Int
     let title: String
     let description: String
     var imageUrl: String
@@ -18,6 +19,7 @@ struct Post {
     
     init(post: PostDTO) {
         self.identifier = post.identifier
+        self.userID = post.userID
         self.title = post.title
         self.description = post.description
         self.imageUrl = post.imageUrl

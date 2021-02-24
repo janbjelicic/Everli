@@ -20,6 +20,7 @@
 		6D1017F325E693B100E3A121 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1017F225E693B100E3A121 /* PostCell.swift */; };
 		6D1017F625E6A0CB00E3A121 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1017F525E6A0CB00E3A121 /* ImageManager.swift */; };
 		6D1017F925E6A50300E3A121 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1017F825E6A50300E3A121 /* AppManager.swift */; };
+		6D10180225E6B9E500E3A121 /* PostsDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10180125E6B9E500E3A121 /* PostsDateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		6D1017F225E693B100E3A121 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		6D1017F525E6A0CB00E3A121 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		6D1017F825E6A50300E3A121 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		6D10180125E6B9E500E3A121 /* PostsDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		6D1017C025E6803100E3A121 /* PostsLoader */ = {
 			isa = PBXGroup;
 			children = (
+				6D10180025E6B9D400E3A121 /* Utilities */,
 				6D1017F125E693A200E3A121 /* UI */,
 				6D1017E525E6835900E3A121 /* Business */,
 				6D1017D925E6808400E3A121 /* Model */,
@@ -128,6 +131,14 @@
 				6D1017F225E693B100E3A121 /* PostCell.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		6D10180025E6B9D400E3A121 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6D10180125E6B9E500E3A121 /* PostsDateFormatter.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 				6D1017F925E6A50300E3A121 /* AppManager.swift in Sources */,
 				6D1017DB25E6808C00E3A121 /* PostDTO.swift in Sources */,
 				6D1017C625E6803100E3A121 /* PostsViewController.swift in Sources */,
+				6D10180225E6B9E500E3A121 /* PostsDateFormatter.swift in Sources */,
 				6D1017F625E6A0CB00E3A121 /* ImageManager.swift in Sources */,
 				6D1017E725E6836600E3A121 /* NetworkManager.swift in Sources */,
 				6D1017C225E6803100E3A121 /* AppDelegate.swift in Sources */,

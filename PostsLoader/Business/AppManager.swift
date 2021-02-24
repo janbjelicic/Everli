@@ -13,9 +13,11 @@ class AppManager {
     static let shared = AppManager()
     
     let imageManager: ImageManager
+    let dateFormatter: PostsDateFormatter
     
     private init() {
         self.imageManager = ImageManager()
+        self.dateFormatter = PostsDateFormatter()
     }
     
     
